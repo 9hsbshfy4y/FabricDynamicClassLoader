@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "classloader",
+  "version": "${version}",
+  "name": "classloader",
+  "description": "classloader for Fabric",
+  "authors": ["devmark"],
+  "environment": "client",
+
+  "mixins": [
+    "mixins.classloader.json"
+  ],
+
+  "entrypoints": {
+    "main": ["dev.mark.loader.entrypoints.Main"],
+    "client": ["dev.mark.loader.entrypoints.Client"]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.5",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

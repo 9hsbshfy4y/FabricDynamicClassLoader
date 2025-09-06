@@ -1,0 +1,6 @@
+{
+  "required": true,
+  "plugin": "dev.mark.loader.MixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "injectors": {"defaultRequire": 1}
+}
